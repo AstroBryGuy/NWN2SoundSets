@@ -60,12 +60,10 @@ The following soundsets are part of this group:
 
 *Note for Steam/GOG users:* Before installing any mods, you will need to use the [ModMerge](https://forums.beamdog.com/discussion/50441/modmerge-merge-your-steam-gog-zip-based-dlc-into-something-weidu-nearinfinity-dltcep-can-use/p1) utility to make your game moddable.
 
-Note: You will need to start a new game. The Imoen character files in any previously saved games will NOT be affected.
-
 ### Windows 
 If the mod was previously installed, uninstall it before extracting the new version. NWN2 Soundsets is packaged and installed with WeiDU. To install, extract the mod archive, then copy of the contents of the archive into your game folder (the folder which contains the chitin.key file). If properly extracted, you should have a "NWN2Soundsets" folder and setup-NWN2Soundsets.exe in your game folder. To install, simply double-click setup-NWN2Soundsets.exe and follow the instructions on screen. 
 
-Please run setup-chattyimoen.exe in your game folder to reinstall, uninstall or otherwise change components. 
+Please run setup-NWN2Soundsets.exe in your game folder to reinstall, uninstall or otherwise change components. 
 
 ### Mac OS X 
 If the mod was previously installed, uninstall it before extracting the new version. NWN2 Soundsets is packaged and installed with WeiDU. To install, extract the mod archive, then copy of the contents of the folder "NWN2Soundsets-v1.0-OSX" into your game folder (the folder which contains the chitin.key file). If properly extracted, you should have a "NWN2Soundsets" folder, setup-NWN2Soundsets, and setup-NWN2Soundsets.command in your game folder. To install, simply double-click setup-NWN2Soundsets.command and follow the instructions on screen. 
