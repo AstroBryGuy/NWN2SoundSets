@@ -5,7 +5,7 @@ A Baldur's Gate mod by AstroBryGuy
 
 ## Introduction
 
-The NWN2 Soundsets mod features 27 soundsets with subtitles that can be used for player characters in Baldur's Gate: Enhanced Edition, Baldur's Gate 2: Enhanced Edition, and Icewind Dale: Enhanced Edition.
+The NWN2 Soundsets mod features 27 soundsets from Neverwinter Nights 2 with subtitles that can be used for player characters in Baldur's Gate: Enhanced Edition, Baldur's Gate 2: Enhanced Edition, and Icewind Dale: Enhanced Edition.
  
 It includes most NWN2 & MOTB companions (not included: Construct, Grobnar, Okku, and One-of-Many). It also includes 14 other generic PC voicesets.
 
@@ -39,7 +39,7 @@ The following 14 soundsets are part of this group:
 
 ### Male Soundsets
 
-The following soundsets are part of this group:
+The following 13 soundsets are part of this group:
 
 * Male 1 (generic)
 * Male 2 (generic)
