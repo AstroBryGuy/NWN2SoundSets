@@ -1,0 +1,218 @@
+/*
+ * "NWN2 Soundsets" for BGEE, BG2EE, IWDEE
+ * By AstroBryGuy
+ *
+ * Based on S9SoundSets by Smeagolheart
+ *
+*/
+
+/* Backup folder */
+BACKUP ~NWN2Soundsets/backup~
+
+AUTHOR ~AstroBryGuy~
+
+/* enable all error messages; nothing suppressed. comment this out for release version */
+// MODDER
+
+VERSION ~1.0~
+
+README ~NWN2Soundsets/readme.html~
+
+ALWAYS
+	INCLUDE ~NWN2Soundsets/lib/snd_copy.tpa~	
+END
+
+AUTO_TRA ~NWN2Soundsets/languages/%s~
+LANGUAGE ~English~ ~english~ ~NWN2Soundsets/languages/english/setup.tra~
+
+// Female soundsets
+BEGIN @101 DESIGNATED 101 // Female 1 (generic)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Fem1~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @102 DESIGNATED 102 // Female 2 (generic)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Fem2~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @103 DESIGNATED 103 // Female 3 (generic)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Fem3~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @104 DESIGNATED 104 // Female 4 (generic)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Fem4~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @105 DESIGNATED 105 // Female 5 (generic)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Fem5~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @106 DESIGNATED 106 // Female 6 (generic)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Fem6~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @107 DESIGNATED 107 // Female 7 (generic)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Fem7~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @108 DESIGNATED 108 // Kaelyn the Dove (female cleric)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Dove~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @109 DESIGNATED 109 // Elanee (female druid)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Nees~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @110 DESIGNATED 110 // Neeshka (female rogue)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Nees~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @111 DESIGNATED 111 // Qara (female mage)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Qara~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @112 DESIGNATED 112 // Safiya (female mage)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Safi~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @113 DESIGNATED 113 // Shandra (female warrior)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Shan~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @114 DESIGNATED 114 // Zhjaeve (female cleric)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Zhja~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+
+// Male soundsets
+BEGIN @201 DESIGNATED 201 // Male 1 (generic)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Mal1~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @202 DESIGNATED 202 // Male 2 (generic)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Mal2~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @203 DESIGNATED 203 // Male 3 (generic)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Mal3~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @204 DESIGNATED 204 // Male 4 (generic)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Mal4~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @205 DESIGNATED 205 // Male 5 (generic)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Mal5~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @206 DESIGNATED 206 // Male 6 (generic)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Mal6~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @207 DESIGNATED 207 // Male 7 (generic)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Mal7~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @208 DESIGNATED 208 // Ammon Jerro (male mage)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Ammo~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @209 DESIGNATED 209 // Bishop (male warrior)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Bish~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @210 DESIGNATED 210 // Casavir (male paladin)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Casa~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @211 DESIGNATED 211 // Gannayev-of-Dreams (male shaman)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Gann~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @212 DESIGNATED 212 // Khlegar (male warrior)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Khel~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @213 DESIGNATED 213 // Sand (male mage)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Sand~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~

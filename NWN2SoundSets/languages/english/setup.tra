@@ -1,0 +1,34 @@
+@999 = ~You must have BGEE, BG2EE, or IWDEE installed.~
+
+// Female soundsets
+@100 = ~Female soundsets~
+@101 = ~Female 1 (generic)~
+@102 = ~Female 2 (generic)~
+@103 = ~Female 3 (generic)~
+@104 = ~Female 4 (generic)~
+@105 = ~Female 5 (generic)~
+@106 = ~Female 6 (generic)~
+@107 = ~Female 7 (generic)~
+@108 = ~Kaelyn the Dove (female cleric)~ 
+@109 = ~Elanee (female druid)~
+@110 = ~Neeshka (female rogue)~
+@111 = ~Qara (female mage)~
+@112 = ~Safiya (female mage)~
+@113 = ~Shandra (female warrior)~
+@114 = ~Zhjaeve (female cleric)~
+
+// Male soundsets
+@200 = ~Male soundsets~
+@201 = ~Male 1 (generic)~
+@202 = ~Male 2 (generic)~
+@203 = ~Male 3 (generic)~
+@204 = ~Male 4 (generic)~
+@205 = ~Male 5 (generic)~
+@206 = ~Male 6 (generic)~
+@207 = ~Male 7 (generic)~
+@208 = ~Ammon Jerro (male mage)~
+@209 = ~Bishop (male warrior)~
+@210 = ~Casavir (male paladin)~
+@211 = ~Gannayev-of-Dreams (male shaman)~
+@212 = ~Khlegar (male warrior)~
+@213 = ~Sand (male mage)~

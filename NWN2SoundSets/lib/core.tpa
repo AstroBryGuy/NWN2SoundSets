@@ -1,0 +1,40 @@
+LOAD_TRA ~NWN2Soundsets/SND/%soundName%/%soundName%.tra~
+
+APPEND_COL "CHARSND.2da" "$ $ %soundName% %snd_columntype%"
+COPY_EXISTING "CHARSND.2da" "override/CHARSND.2da"
+	REPLACE "soundNamea" @0
+	REPLACE "soundNameb" @1
+	REPLACE "soundNamec" @2
+	REPLACE "soundNamed" @3
+	REPLACE "soundNamee" @4
+	REPLACE "soundNamef" @5
+	REPLACE "soundNameg" @6
+	REPLACE "soundNameh" @7
+	REPLACE "soundName0" @8
+	REPLACE "soundNamei" @9
+	REPLACE "soundNamej" @10
+	REPLACE "soundNamek" @11
+	REPLACE "soundNames" @12
+	REPLACE "soundNamet" @13
+	REPLACE "soundNameu" @14
+	REPLACE "soundNamev" @15
+	REPLACE "soundNamel" @16
+	REPLACE "soundNamem" @17
+	REPLACE "soundName8" @18
+	REPLACE "soundName9" @19
+	REPLACE "soundNamex" @20
+	REPLACE "soundNamey" @21
+	REPLACE "soundName_" @22
+	REPLACE "soundName#" @23
+	REPLACE "soundNamez" @24	
+	REPLACE "soundName1" @25
+	REPLACE "soundName2" @26
+	REPLACE "soundName3" @27
+	REPLACE "soundName4" @28
+	REPLACE "soundName5" @29
+	REPLACE "soundName6" @30
+	REPLACE "soundName7" @31	
+	REPLACE "soundNamew" @32
+PRETTY_PRINT_2DA
+
+//LOAD_TRA ~NWN2Soundsets/languages/english/setup.tra~

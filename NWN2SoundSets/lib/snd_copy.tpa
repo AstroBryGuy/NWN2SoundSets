@@ -1,0 +1,58 @@
+// This file sets up different settings needed for BG1EE, BG2EE, and IWDEE
+// IWDEE, BGEE and BG2EE have different columns in charsnd.2da 
+// so each game gets different sounds with subs
+
+	// ----------------BGEE SPECIFIC SETTINGS----------------
+	ACTION_IF GAME_IS ~bgee~ BEGIN
+		PRINT ~Installing BGEE version of soundset.~
+		OUTER_SPRINT "snd_columntype" "soundNamea soundNameb soundNamec soundNamed soundNamee soundNamef soundNameg soundNameh soundNamei soundNamej soundNamek soundNamel soundNamem soundName8 soundName9 soundNamex soundNamey soundNamez soundName1 soundName2 soundName3 soundName4 soundName5 soundName6 soundName7"
+		DEFINE_ACTION_FUNCTION snd_copy BEGIN
+			PRINT ~Installing %soundName% Sound Files...~
+			ACTION_FOR_EACH snd IN ~a~ ~b~ ~c~ ~d~ ~e~ ~f~ ~g~ ~h~ ~i~ ~j~ ~k~ ~l~ ~m~ ~8~ ~9~ ~x~ ~y~ ~z~ ~1~ ~2~ ~3~ ~4~ ~5~ ~6~ ~7~ BEGIN
+				ACTION_IF FILE_EXISTS ~NWN2Soundsets/SND/%soundName%/sounds/%soundName%%snd%.ogg~ THEN BEGIN
+					COPY ~NWN2Soundsets/SND/%soundName%/sounds/%soundName%%snd%.ogg~ ~lang/en_US/sounds/%soundName%%snd%.wav~ 
+				END
+			END
+				// ----------------SOD Compatibility----------------
+			ACTION_IF (GAME_INCLUDES ~sod~) BEGIN
+				PRINT ~Adjusting for SOD version of soundset.~
+				ACTION_FOR_EACH snd IN ~s~ ~t~ ~u~ ~v~ ~0~ ~w~ BEGIN
+					ACTION_IF FILE_EXISTS ~NWN2Soundsets/SND/%soundName%/sounds/%soundName%%snd%.ogg~ THEN BEGIN
+						COPY ~NWN2Soundsets/SND/%soundName%/sounds/%soundName%%snd%.ogg~ ~lang/en_US/sounds/%soundName%%snd%.wav~ 
+					END
+				END
+			
+				OUTER_SPRINT "snd_columntype" "-1 -1 -1 -1 -1 soundNameb soundNamec soundNamed soundNamea soundName8 soundName9 -1 -1 soundNamel soundNamem soundNamee -1 -1 -1 -1 -1 soundNamef soundNameg soundNameh soundName0 -1 -1 soundNamei soundNamej soundNamek soundNames soundNamet soundNameu soundNamev soundNamew soundNamex soundNamey soundNamez soundName1 soundName2 soundName3 soundName4 soundName5 soundName6 soundName7"
+			END
+		END		
+	END
+
+	// ----------------BG2EE SPECIFIC SETTINGS----------------
+	ACTION_IF GAME_IS ~bg2ee~ 
+	BEGIN
+		PRINT ~Installing BGEE2 version of soundset.~
+		OUTER_SPRINT "snd_columntype" "soundNamea soundNameb soundNamec soundNamed soundNamee soundNamef soundNameg soundNameh soundNamei soundNamej soundNamek soundNames soundNamet soundNameu soundNamev soundNamel soundNamem soundName8 soundName9 soundNamex soundNamey soundNamez soundName1 soundName2 soundName3 soundName4 soundName5 soundName6 soundName7"
+		DEFINE_ACTION_FUNCTION snd_copy BEGIN
+			PRINT ~Installing %soundName% Sound Files...~
+			ACTION_FOR_EACH snd IN ~a~ ~b~ ~c~ ~d~ ~e~ ~f~ ~g~ ~h~ ~i~ ~j~ ~k~ ~s~ ~t~ ~u~ ~v~ ~l~ ~m~ ~8~ ~9~ ~x~ ~y~ ~z~ ~1~ ~2~ ~3~ ~4~ ~5~ ~6~ ~7~ BEGIN
+				ACTION_IF FILE_EXISTS ~NWN2Soundsets/SND/%soundName%/sounds/%soundName%%snd%.ogg~ THEN BEGIN
+					COPY ~NWN2Soundsets/SND/%soundName%/sounds/%soundName%%snd%.ogg~ ~lang/en_US/sounds/%soundName%%snd%.wav~ 
+				END
+			END
+		END		
+	END
+
+	// ----------------IWD2EE SPECIFIC SETTINGS----------------
+	ACTION_IF GAME_IS ~iwdee~ 
+	BEGIN
+		PRINT ~Installing IWDEE version of soundset.~
+		OUTER_SPRINT "snd_columntype" "soundNamea soundNameb soundNamec soundNamed soundNamee soundNamef soundNameg soundNameh soundName0 soundNamei soundNamej soundNamek soundNames soundNamet soundNameu soundNamev soundNamel soundNamem soundName8 soundName9 soundNamex soundNamey soundName_ soundName# soundNamez soundName1 soundName2 soundName3 soundName4 soundName5 soundName6 soundName7 soundNamew"
+		DEFINE_ACTION_FUNCTION snd_copy BEGIN
+			PRINT ~Installing %soundName% Sound Files...~
+			ACTION_FOR_EACH snd IN ~a~ ~b~ ~c~ ~d~ ~e~ ~f~ ~g~ ~h~ ~0~ ~i~ ~j~ ~k~ ~s~ ~t~ ~u~ ~v~ ~l~ ~m~ ~8~ ~9~ ~x~ ~y~ ~_~ ~#~ ~z~ ~1~ ~2~ ~3~ ~4~ ~5~ ~6~ ~7~ ~w~ BEGIN
+				ACTION_IF FILE_EXISTS ~NWN2Soundsets/SND/%soundName%/sounds/%soundName%%snd%.ogg~ THEN BEGIN
+					COPY ~NWN2Soundsets/SND/%soundName%/sounds/%soundName%%snd%.ogg~ ~lang/en_US/sounds/%soundName%%snd%.wav~ 
+				END
+			END
+		END	
+	END
