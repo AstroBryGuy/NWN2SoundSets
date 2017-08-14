@@ -4,3 +4,4 @@ package_mod.sh
 *.zip
 setup-NWN2Soundsets
 setup-NWN2Soundsets.exe
+.DS_Store
