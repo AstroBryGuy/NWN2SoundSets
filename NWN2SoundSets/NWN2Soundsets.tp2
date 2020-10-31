@@ -124,7 +124,21 @@ BEGIN @114 DESIGNATED 114 // Zhjaeve (female cleric)
 	LAUNCH_ACTION_FUNCTION snd_copy END
 	INCLUDE ~NWN2Soundsets/lib/core.tpa~
 
+BEGIN @115 DESIGNATED 115 // Raegen Brunegar (female fighter)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Raeg~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
 
+BEGIN @116 DESIGNATED 116 // Veiti Ironeater (female dwarf)
+	GROUP @100 // Female soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Veit~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+	
+	
 // Male soundsets
 BEGIN @201 DESIGNATED 201 // Male 1 (generic)
 	GROUP @200 // Male soundsets
@@ -214,5 +228,12 @@ BEGIN @213 DESIGNATED 213 // Sand (male mage)
 	GROUP @200 // Male soundsets
   	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
 	OUTER_SPRINT soundName ~ay_Sand~
+	LAUNCH_ACTION_FUNCTION snd_copy END
+	INCLUDE ~NWN2Soundsets/lib/core.tpa~
+
+BEGIN @214 DESIGNATED 214 // Purfbin (male gnome)
+	GROUP @200 // Male soundsets
+  	REQUIRE_PREDICATE GAME_IS ~bgee bg2ee iwdee~ @999 // You must have BGEE, BG2EE, or IWDEE installed.
+	OUTER_SPRINT soundName ~ay_Purf~
 	LAUNCH_ACTION_FUNCTION snd_copy END
 	INCLUDE ~NWN2Soundsets/lib/core.tpa~

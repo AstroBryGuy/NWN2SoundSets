@@ -1,4 +1,5 @@
-nwn2_voicesets
+dod_voicesets/*
+nwn2_voicesets/*
 package_mod.sh
 *.command
 *.zip

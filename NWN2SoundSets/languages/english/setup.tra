@@ -16,6 +16,8 @@
 @112 = ~Safiya (female mage)~
 @113 = ~Shandra (female warrior)~
 @114 = ~Zhjaeve (female cleric)~
+@115 = ~Raegen Brunegar (female fighter)~
+@116 = ~Veiti Ironeater (female dwarf)~
 
 // Male soundsets
 @200 = ~Male soundsets~
@@ -32,3 +34,4 @@
 @211 = ~Gannayev-of-Dreams (male shaman)~
 @212 = ~Khlegar (male warrior)~
 @213 = ~Sand (male mage)~
+@213 = ~Purfbin Doogrick (male gnome)~
